@@ -1,3 +1,4 @@
+import musicshop.stock.ISell;
 import musicshop.stock.misc.Misc;
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +22,10 @@ public class MiscTest {
     @Test
     public void miscItemHasSellFor() {
         assertEquals(10, misc.getSellFor(), 0.01);
+    }
+    @Test
+    public void miscItemIsOfTypeISell() {
+        assertEquals(true, (misc instanceof ISell));
     }
     @Test
     public void miscItemHasMarkupMethod() {
