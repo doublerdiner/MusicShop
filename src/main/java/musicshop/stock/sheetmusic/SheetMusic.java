@@ -6,6 +6,7 @@ public class SheetMusic extends Stock {
     private String artist;
     private String album;
     private String forInstrument;
+    private double markupPercentage;
     public SheetMusic(String artist, String album, String forInstrument, double boughtFor) {
         super(boughtFor, (boughtFor * 1.3));
         this.artist = artist;
@@ -23,4 +24,5 @@ public class SheetMusic extends Stock {
     public String getForInstrument() {
         return forInstrument;
     }
+
 }

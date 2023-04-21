@@ -47,4 +47,12 @@ public class GuitarTest {
     public void guitarHasMarkupMethod(){
         assertEquals(279.99, guitar.calculateMarkup(), 0.01);
     }
+    @Test
+    public void guitarHasMarkupPercentage(){
+        assertEquals(.4, guitar.getMarkupPercentage(), 0.01);
+    }
+    @Test
+    public void guitarHasInstrumentType(){
+        assertEquals("Guitar", guitar.getInstrumentType());
+    }
 }

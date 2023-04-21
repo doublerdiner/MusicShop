@@ -1,10 +1,10 @@
 package musicshop.stock.instruments;
 
 public enum InstrumentType {
-    GUITAR("Guitar", 1.4),
+    GUITAR("Guitar", 1.40),
     BRASS("Brass", 1.35),
     STRING("String", 1.35),
-    PERCUSSION("Percussion", 1.2);
+    PERCUSSION("Percussion", 1.20);
     private final String formattedName;
     private final double markup;
 

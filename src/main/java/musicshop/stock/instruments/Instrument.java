@@ -24,4 +24,7 @@ public abstract class Instrument extends Stock {
     public String getInstrumentType() {
         return instrumentType.getFormattedName();
     }
+    public double getMarkupPercentage(){
+        return instrumentType.getMarkup()-1;
+    }
 }
