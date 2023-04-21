@@ -2,7 +2,7 @@ package musicshop.stock.instruments;
 
 import musicshop.stock.Stock;
 
-public abstract class Instrument extends Stock {
+public abstract class Instrument extends Stock implements IPlay{
     private String brand;
     private String model;
     private InstrumentType instrumentType;

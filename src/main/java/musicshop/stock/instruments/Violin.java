@@ -16,4 +16,9 @@ public class Violin extends Instrument{
     public boolean isBowIncluded() {
         return bowIncluded;
     }
+
+    @Override
+    public String play() {
+        return "Heee...Screech";
+    }
 }

@@ -1,6 +1,6 @@
 package musicshop.stock.instruments;
 
-public class Guitar extends Instrument {
+public class Guitar extends Instrument{
     private int numOfStrings;
     private boolean electric;
     private String colour;
@@ -21,5 +21,10 @@ public class Guitar extends Instrument {
 
     public String getColour() {
         return colour;
+    }
+
+    @Override
+    public String play() {
+        return "Plang lang-a lang-a lang-a lang-a lang-a lang";
     }
 }

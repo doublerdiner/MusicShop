@@ -16,4 +16,9 @@ public class Trumpet extends Instrument{
     public String getFinish() {
         return finish;
     }
+
+    @Override
+    public String play() {
+        return "Parp parp parp";
+    }
 }

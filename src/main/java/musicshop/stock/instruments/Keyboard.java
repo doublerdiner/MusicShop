@@ -10,4 +10,9 @@ public class Keyboard extends Instrument{
     public int getNumOfKeys() {
         return numOfKeys;
     }
+
+    @Override
+    public String play() {
+        return "Plink Plonk";
+    }
 }

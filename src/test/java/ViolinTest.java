@@ -48,4 +48,8 @@ public class ViolinTest {
     public void violinIsInstanceOfISell(){
         assertEquals(true, (violin instanceof ISell));
     }
+    @Test
+    public void violinHasPlayMethod(){
+        assertEquals("Heee...Screech", violin.play());
+    }
 }

@@ -22,4 +22,9 @@ public class DrumKit extends Instrument{
     public String getColour() {
         return colour;
     }
+
+    @Override
+    public String play() {
+        return "Ba Doom Tish";
+    }
 }

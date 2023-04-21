@@ -43,5 +43,9 @@ public class KeyboardTest {
     public void keyboardHasMarkupPercentage(){
         assertEquals(.15, keyboard.getMarkupPercentage(), 0.01);
     }
+    @Test
+    public void keyboardHasPlayMethod(){
+        assertEquals("Plink Plonk", keyboard.play());
+    }
 
 }

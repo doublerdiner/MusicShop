@@ -52,4 +52,8 @@ public class DrumKitTest {
     public void drumkitIsInstanceOfISell(){
         assertEquals(true, (drumkit instanceof ISell));
     }
+    @Test
+    public void drumkitHasPlayMethod(){
+        assertEquals("Ba Doom Tish", drumkit.play());
+    }
 }

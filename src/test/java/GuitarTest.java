@@ -55,4 +55,8 @@ public class GuitarTest {
     public void guitarHasInstrumentType(){
         assertEquals("Guitar", guitar.getInstrumentType());
     }
+    @Test
+    public void guitarHasPlayMethod(){
+        assertEquals("Plang lang-a lang-a lang-a lang-a lang-a lang", guitar.play());
+    }
 }
